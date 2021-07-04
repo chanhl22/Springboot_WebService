@@ -14,6 +14,7 @@ public class HelloResponseDtoTest {
 
         //when
         HelloResponseDto dto = new HelloResponseDto(name, amount);
+        //HelloResponseDto dto = HelloResponseDto.builder().name(name).amount(amount).creat(firstclass).modifier(secclass).build();
 
         //then
         assertThat(dto.getName()).isEqualTo(name);
