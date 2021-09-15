@@ -26,7 +26,7 @@ deploy: # (5)
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY # Travis repo setting에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo setting에 설정된 값
-    bucket: freelec-springboot-doop-build # S3 버킷
+    bucket: chan-springboot-build # S3 버킷
     region: ap-northeast-2
     skip_cleanup: true
     acl: private # zip 파일 접근을 private으로
